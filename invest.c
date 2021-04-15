@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main(void)
 {
+	//test 1
 	double a;
 	do {
 		printf("Enter initial investment amount: ");
 		scanf("%lf", &a);
 		if (a<0) printf("initial investment cannot be negative\n");
 	} while (a < 0); /* investment amount*/ 
-
+	//test 2
 	int b;
 	do {
 		printf("Enter total years: ");
